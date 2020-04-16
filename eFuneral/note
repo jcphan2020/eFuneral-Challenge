@@ -1,0 +1,14 @@
+Result:
+*   Tool is triggered by monthly scheduler
+*   Send text messages to multiple contact by mobile phone
+*   Mobile phone then skip
+*   Send on birthday
+*   Message include first name
+
+algorithm
+*   Get contacts that match requirements
+*   Organized by date
+*   Loop
+*   Send message when date matches
+*   Remove this contact and load next
+*   Repeat until all contact are removed from list
